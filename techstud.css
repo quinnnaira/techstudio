@@ -1,4 +1,5 @@
 /* HEADER STYLING */
+
 body {
   padding: 0;
   margin: 0;
@@ -57,6 +58,7 @@ img {
 
 nav {
   margin-top: 20px;
+ 
 }
 
 nav a {
@@ -78,7 +80,7 @@ nav a:hover {
 
 .section1 {
   padding: 30px 10px;
-  background-image: url(../techstudio/images/techstudio\ bg\ .jpeg);
+  background-image: url(./images/techstudio\ bg\ .jpeg);
   background-size: 100%;
 }
 
@@ -154,7 +156,7 @@ div .text-form {
   font-size: 20px;
   font-weight: 300px;
   line-height: 24px;
-  width: 400px;
+  /* width: 400px; */
   height: 48px;
 }
 .name {
@@ -453,70 +455,17 @@ text-align: center;
   display: flex;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0px;
     height: 20%;
-   
   }
-  .navdiv {
-    width: 200%;
-  }
-  div .text-form {
-    width: 400px;
+  .formtext{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 5px 0px;
-    margin: 0px;
-  }
-  .section1 {
-    width:250%;
-
-  }
-  .formtext {
-
-    margin: 0px;
-    /* padding: 10px 30px; */
-  }
-  .form{
-    margin: 0px;
-    width: 450px;
-  }
-  .name {
-    display: flex;
-    justify-content: space-between;
-  }
-  form .name1 {
-    margin-right: 40px;
-    width: 50%;
-    height: 50px;
-    border-radius: 2.5px;
-    cursor: type;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    padding: 3.75px 7.75px;
-  }
-  form .name2 {
-    margin-right: 5px;
-    width: 50%;
-    height: 50px;
-    border-radius: 2.5px;
-    cursor: type;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    padding: 3.75px 7.75px;
   }
   
-  .testimony1-2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 5px 0px;
-    margin: none;
-    justify-content: start;
-  }
 }
